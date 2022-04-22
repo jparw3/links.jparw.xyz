@@ -6,7 +6,7 @@ const Title = ({ children }) => {
     <div className="group relative">
       <h1 className="text-white cursor-pointer font-SDRounded font-bold text-4xl text-transparent bg-clip-text bg-gradient-to-r from-[#3C81F6] to-[#A656F7]">
         <span>{children}</span>
-        <div className="hidden group-hover:block motion-reduce:group-hover:hidden">
+        <div className="opacity-0 group-hover:opacity-100 transition duration-200 motion-reduce:group-hover:hidden">
           <div className="position:absolute;left:25px;top:-10px;transform:scale(1)">
             <motion.div
               className="absolute left-[17px] -top-[5px] transform scale-100"
