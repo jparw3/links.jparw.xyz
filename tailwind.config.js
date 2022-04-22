@@ -1,16 +1,16 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  mode: 'jit',
-  content: ['./pages/**/*.{js,jsx}', './components/**/*.{js,jsx}'],
-  darkMode: 'class',
+  mode: "jit",
+  content: ["./pages/**/*.{js,jsx}", "./components/**/*.{js,jsx}"],
+  darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
-        SFRounded: ['SFRounded', ...defaultTheme.fontFamily.sans],
+        SFRounded: ["SFRounded", ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        lightblue: '#E9F2FE',
+        lightblue: "#E9F2FE",
       },
     },
   },
