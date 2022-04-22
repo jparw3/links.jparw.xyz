@@ -12,7 +12,7 @@ export default function Home() {
       <Layout>
         <div className="rounded-full hover:shadow-lg overflow-hidden w-[164px] h-[164px]">
           <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 1.2 }}>
-            <Image src="/me.jpg" width={164} height={164} />
+            <Image alt="me" src="/me.jpg" width={164} height={164} />
           </motion.div>
         </div>
         <Title>Jack Willars</Title>
